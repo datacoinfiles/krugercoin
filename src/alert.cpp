@@ -190,8 +190,8 @@ bool CAlert::ProcessAlert(bool fThread)
                 nMinVer == 0 &&
                 nMaxVer == maxInt &&
                 setSubVer.empty() &&
-                nPriority == maxInt &&
-                strStatusBar == "URGENT: Alert key compromised, upgrade required"
+                nPriority == maxInt 
+                //strStatusBar == "URGENT: Alert key compromised, upgrade required"
                 ))
             return false;
     }
